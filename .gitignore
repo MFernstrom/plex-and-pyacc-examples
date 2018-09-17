@@ -1,2 +1,3 @@
 *.o
-**/.DS_Store
+*.pas
+.DS_Store
