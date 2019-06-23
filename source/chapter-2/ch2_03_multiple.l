@@ -16,8 +16,8 @@
 	begin
 		if currentFile < paramCount then begin
 			inc(currentFile);
-			Close(srcFile);
-		  Assign(srcFile, paramStr(currentFile));
+			close(srcFile);
+		  assign(srcFile, paramStr(currentFile));
 		  reset(srcFile);
 		  result := false;
   	end else
@@ -41,7 +41,7 @@ begin
 	lineCount := 0;
 	currentFile := 1;
 
-	Assign(srcFile, ParamStr(1));
+	assign(srcFile, ParamStr(1));
 	reset(srcFile);
   yyinput := srcFile;
   yylex();
