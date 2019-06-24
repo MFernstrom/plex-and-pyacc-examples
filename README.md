@@ -4,3 +4,6 @@ I'm working through the O'Reilly book ['Lex & Yacc' (2nd edition)](http://shop.o
 
 There's a few pages on the [Lazarus wiki](https://wiki.freepascal.org/Plex_and_Pyacc)
  but they're woefully inadequate
+
+Chapter 1 - Done
+Chapter 2 - In progress
