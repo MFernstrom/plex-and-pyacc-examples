@@ -19,19 +19,19 @@
 %%
 
 ^[ \t]*"/*"										begin start(COMMENT) end;
-^[ \t]*"/*".*"*/"[ \t]*\n			begin inc(comments); end;
+^[ \t]*"/*".*"*/"[ \t]*\n			inc(comments);
 <COMMENT>"*/"[ \t]*\n					begin start(0); inc(comments); end;
-<COMMENT>"*/"									begin start(0); end;
-<COMMENT>\n										begin inc(comments); end;
+<COMMENT>"*/"									start(0);
+<COMMENT>\n										inc(comments);
 
-^[ \t]*\n											begin inc(whiteSpace) end;
+^[ \t]*\n											inc(whiteSpace);
 
-.+"/*".*"*/".*\n							begin inc(code); end;
-.+"/*".*"*/".+\n							begin inc(code); end;
+.+"/*".*"*/".*\n							inc(code);
+.+"/*".*"*/".+\n							inc(code);
 .+"/*".*\n										begin inc(code); start(COMMENT) end;
-.\n														begin inc(code); end;
+.\n														inc(code);
 
-.															begin { Anything else } end;
+.															{Do nothing};
 %%
 
 begin
