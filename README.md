@@ -6,5 +6,6 @@ There's a few pages on the [Lazarus wiki](https://wiki.freepascal.org/Plex_and_P
  but they're woefully inadequate
 
 | Chapter | Status |
+| --- | --- |
 | Chapter 1 | Done |
 | Chapter 2 | In progress |
