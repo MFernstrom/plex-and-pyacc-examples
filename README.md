@@ -9,3 +9,10 @@ There's a few pages on the [Lazarus wiki](https://wiki.freepascal.org/Plex_and_P
 | --- | --- |
 | Chapter 1 | Done |
 | Chapter 2 | In progress |
+| Chapter 3 | Not done |
+| Chapter 4 | Not done |
+| Chapter 5 | Not done |
+| Chapter 6 | Not done |
+| Chapter 7 | Not done |
+| Chapter 8 | Not done |
+| Chapter 9 | Not done |
