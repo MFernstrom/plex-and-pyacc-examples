@@ -1,4 +1,6 @@
 %{
+	{ Chapter 3, Example 02
+		Variables and Types tokens }
 %}
 
 %%
