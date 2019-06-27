@@ -1,6 +1,6 @@
 %{
 {
-	Chapter 3, Example 03
+	Chapter 3, Example 01
 	First example with precedence.
 }
 program ch3_03;
